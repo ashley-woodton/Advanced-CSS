@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: #eee;
+}
+
+table, td{
+    border-collapse: collapse;
+}
+td{
+    width: 100px;
+    height: 100px;
+}
+
+.row-w td:nth-child(even){
+    background-color: black;
+}
+.row-w td:nth-child(odd){
+    background-color: white;
+}
+
+.row-b td:nth-child(odd){
+    background-color: black;
+}
+
+.row-b td:nth-child(even){
+    background-color: white;
+}
+
+div{
+    height: 100px;
+    width: 100px;
+  
+}
+
+/* CSS Code for the bonus */
+.bonus {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    border: none;
+}
+  
+  .column-w > div{
+      background-color: black;
+      /* padding: 1em; */
+}
+  
+  .column-w > div:nth-child(odd){
+      background-color: #fff;
+  }
+
+  .column-b > div{
+    background-color: white;
+    /* padding: 1em; */
+}
+
+.column-b > div:nth-child(odd){
+    background-color: #000;
+}

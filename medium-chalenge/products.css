@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 1.5em;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+  
+  div{
+    box-shadow: 0 0 20px #000000b3;
+      text-align: center;
+      border-radius: 10px;
+      padding-bottom: 20px;
+  }
+
+  p{
+      margin: 10px;
+  }
+
+  button{
+      height: 3em;
+      width: 6em;
+      font-size: 16px;
+      background-color: rgb(114, 229, 250);
+      border: none;
+      border-radius: 10px;
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+
+  button a{
+      text-decoration: none;
+     color: white;
+  }
+
+  button:active {
+    background-color: rgb(37, 164, 186);
+    transform: translateY(4px);
+  }

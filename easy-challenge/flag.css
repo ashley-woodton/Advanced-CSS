@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+table, tr{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#stars{
+    background-image: url('easy.jpg');
+    width: 596px;
+    height: 440px;
+    padding: 0;
+}
+
+tr{
+    height: 60px;
+    margin-right: 100px;
+}
+
+
+tr:nth-child(odd){
+    background-color: red;
+}
+
+tr:nth-child(even){
+    background-color: white;
+}
